@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController 
 public class TestService {
 	
-    @GetMapping(value = "")
+    @GetMapping(value = "/")
     public String welcome()
     {
     	return "Aplicacion Web Muy Simple :)";
